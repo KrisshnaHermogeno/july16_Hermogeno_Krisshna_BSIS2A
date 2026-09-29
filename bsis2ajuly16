@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bsis2ajuly16</title>
+</head>
+<body>
+
+<?php
+//Hans
+/*Name: Krisshna R. Hermogeno
+  Age: 19
+  Gender: Male
+  Address: Sucol, Calumpit, Bulacan
+  Hobby: Playing Games, Watching Movies
+*/
+
+echo "<br>
+Associative Array With HTML
+<br>";
+
+$me = [
+    "name" => "Krisshna Hermogeno",
+    "age" => 19,
+    "address" => "Calumpit, Bulacan",
+    "hobbies" => "Playing Games, Watching Movies",
+    "dream" => "Technician",
+    "course" => "BSIS",
+    "school" => "Bulacan Polytechnic College"
+];
+
+echo '<b>Name: </b><i>';
+echo $me['name'];
+echo '</i><br>';
+
+echo '<b>Age: </b><i>';
+echo $me['age'];
+echo '</i><br>';
+
+echo '<b>Address: </b><i>';
+echo $me['address'];
+echo '</i><br>';
+
+echo '<b>Hobbies: </b><i>';
+echo $me['hobbies'];
+echo '</i><br>';
+
+echo '<b>Dream: </b><i>';
+echo $me['dream'];
+echo '</i><br>';
+
+echo '<b>Course: </b><i>';
+echo $me['course'];
+echo '</i><br>';
+
+echo '<b>School: </b><i>';
+echo $me['school'];
+echo '</i><br>';
+
+print "I am Krisshna Hermogeno, 19 yrs old, from Sucol, Calumpit, Bulacan.
+<br>My hobbies is playing online games and watching movies.
+<br>My dream is to become a technician. My course is BSIS and I am a student of Bulacan Polytechnic College.";
+?>
+</body>
+</html>
